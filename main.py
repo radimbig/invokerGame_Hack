@@ -23,7 +23,7 @@ session = cfscrape.create_scraper(req.session())
 
 
 
-input("Login, play in one game in classic mode, then press enter")
+input("Login, play one game in the classic mode, then press enter")
 
 
 for x in driver.requests:
