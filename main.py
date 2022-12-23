@@ -23,7 +23,9 @@ session = cfscrape.create_scraper(req.session())
 
 
 
-input("Press Enter after save request.")
+input("Login, play in one game in classic mode, then press enter")
+
+
 for x in driver.requests:
     if(x.url.split("/")[2] =="www.invokergame.com"):
         print(x.url)
